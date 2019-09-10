@@ -1,0 +1,46 @@
+.wrap {
+    width: 100%;
+    border: 1px solid #000;
+}
+
+#title-area {
+    text-align: center;
+}
+
+#title {
+    border-bottom: solid 3px black;
+    display: inline-block;
+}
+
+.message {
+    text-align: center;
+}
+
+#choice-area {
+    margin: 10px auto;
+    width: 50%;
+}
+
+#choices li {
+    list-style-type: none;
+    width: 50%;
+    padding: 10px;
+}
+
+#choices {
+    display:flex;
+    padding: 40px;
+}
+
+#choices img {
+    height: 80%;
+    width: 80%;
+}
+
+.choice:hover {
+    cursor: pointer;
+}
+
+.result-area {
+    text-align: center;
+}

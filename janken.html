@@ -7,10 +7,39 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="じゃんけんアプリです">
     <title>じゃんけんアプリ</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
+    <div class="wrap">
+        <div id='title-area'>
+            <h2><span id="title">じゃんけん</span></h2>
+        </div>
+        <div class="message">
+            <p>最初はグー！じゃんけん...</p>
+        </div>
+        <div id="choice-area">
+            <ul id="choices">
+                <li class="choice" id="paper">
+                    <img src="img/paper.png" alt="paper">
+                </li>
+                <li class="choice" id="scissors">
+                    <img src="img/scissors.png" alt="scissors">
+                </li>
+                <li class="choice" id="stone">
+                    <img src="img/stone.png" alt="stone">
+                </li>
+            </ul>
+        </div>
+        <div class="message">
+            <p>あなたの手を選んでください。</p>
+        </div>
+        <div class="result-area">
+            <p id='result'></p>
+            <p id='battle-info'></p>
+        </div>
+    </div>
+    <script src="js/janken.js"></script>
 </body>
 
 </html>
